@@ -1,0 +1,25 @@
+.cardLg {
+  max-width: 540px;
+  max-height: auto;
+}
+
+.albumCard {
+  list-style: none;
+  text-align: center;
+}
+
+.albumCard:hover {
+  opacity: 0.8;
+}
+
+.albumImage {
+  border-radius: 10px;
+  background-color: azure;
+}
+
+@media (max-width: 560px) {
+  .albumImage {
+    width: 100%;
+    height: auto;
+  }
+}
